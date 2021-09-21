@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://jmix.io/schema/ui/window"
+        caption="msg://screenWithMultiuploadField.caption">
+    <layout>
+        <vbox>
+            <label value="msg://uploadnNonVersionedWD"/>
+            <fileMultiUpload id="fileMultiUploadField" />
+        </vbox>
+
+        <vbox>
+            <label value="msg://uploadnVersionedWD"/>
+            <fileMultiUpload id="fileMultiUploadFieldVersioned" />
+        </vbox>
+    </layout>
+</window>

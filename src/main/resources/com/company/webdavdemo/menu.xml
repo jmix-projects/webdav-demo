@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menu-config xmlns="http://jmix.io/schema/ui/menu">
+
+    <menu id="application" caption="msg://com.company.webdavdemo/menu.application" insertBefore="administration">
+
+        <item screen="w_WDWithDisabledVersioning.browse"
+              caption="msg://com.company.webdavdemo.screen.wdwithdisabledversioning/WDWithDisabledVersioningBrowse.menu"/>
+        <item screen="w_WDWithEnabledVersioning.browse"
+              caption="msg://com.company.webdavdemo.screen.wdwithenabledversioning/WDWithEnabledVersioningBrowse.menu"/>
+        <item screen="w_ScreenWithMultiuploadField"
+              caption="msg://com.company.webdavdemo.screen.screenwithmultiuploadfield/screenWithMultiuploadField.caption"/>
+        <item screen="w_User.browse" caption="msg://com.company.webdavdemo.screen.user/UserBrowse.caption"/>
+        <item screen="themeSettingsScreen" caption="msg://io.jmix.ui.app.themesettings/themeSettings.caption"/>
+    </menu>
+
+</menu-config>

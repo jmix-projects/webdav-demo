@@ -1,0 +1,6 @@
+/.idea/
+/.gradle/
+/build/
+/.jmix/
+*.iml
+/template.description
