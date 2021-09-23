@@ -45,6 +45,9 @@ dependencies {
 
     implementation 'org.springframework.boot:spring-boot-starter-web'
 
+//  This dependency is used for scheduling tasks
+    implementation 'org.springframework.boot:spring-boot-starter-quartz'
+
     runtimeOnly 'org.hsqldb:hsqldb'
 
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
