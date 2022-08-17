@@ -1,6 +1,6 @@
 # WebDAV demo project
 
-This is a demo project for the Jmix WebDAV addon.
+This is a demo project for the Jmix [WebDAV add-on](https://docs.jmix.io/jmix/webdav/index.html).
 
 --------------------------------------------
 # How to Include the WebDAV Trial Version

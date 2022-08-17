@@ -42,7 +42,7 @@ public class WebdavDemoApplication {
     @EventListener
     public void printApplicationUrl(ApplicationStartedEvent event) {
         LoggerFactory.getLogger(WebdavDemoApplication.class).info("Application started at "
-                + "http://localhost:"
+                + "https://localhost:"
                 + environment.getProperty("local.server.port")
                 + Strings.nullToEmpty(environment.getProperty("server.servlet.context-path")));
     }
